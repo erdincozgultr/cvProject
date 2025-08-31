@@ -2,11 +2,11 @@ function Profile() {
   return (
     <>
       <div className="flex flex-col gap-y-10 text-lg">
-        <div className="text-5xl font-medium">Profile</div>
+        <div className="text-5xl font-medium dark:text-[#aebccf]">Profile</div>
         <div className="flex gap-20">
           <div className="flex flex-col gap-y-4">
-            <span className="text-4xl text-[#4731d3]">Profile</span>
-            <div className="flex flex-col gap-y-2 w-105">
+            <span className="text-4xl text-[#4731d3] dark:text-[#9e97c4]">Profile</span>
+            <div className="flex flex-col gap-y-2 w-105 dark:text-white">
               <div className="flex gap-16">
                 <span className="w-2/5 font-bold">Doğum Tarihi</span>
                 <span className="w-3/5">24.03.1996</span>
@@ -28,13 +28,13 @@ function Profile() {
             </div>
           </div>
           <div className="flex flex-col text-lg text-[#777777] gap-y-1">
-            <span className="text-4xl text-[#4731d3]">About Me</span>
-            <span>
+            <span className="text-4xl text-[#4731d3] dark:text-[#9e97c4]">About Me</span>
+            <span className="dark:text-white">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
               aut, odit laborum aliquam voluptatum nisi molitia.
             </span>
             <br />
-            <span>
+            <span className="dark:text-white">
               Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
               deserunt quam tepporibus cumque magnam!
             </span>

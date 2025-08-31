@@ -8,18 +8,22 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-    <div className="w-4/6 mt-8 mx-auto flex flex-col gap-y-8 mb-40">
-      <Header />
-      <Hero/>
-      <Skills/>
-      <div className="flex-grow border-1 border-[#dcd8f3]"></div>
-      <Profile/>
-      <div className="flex-grow border-1 border-[#dcd8f3]"></div>
-      <Projects/>
-    </div>
-    <Footer/>
+      <div data-theme="dark" className="bg-white dark:bg-[#252128]">
+        <div className="w-4/6 mx-auto flex flex-col gap-y-8 pt-10 pb-[160px]">
+          <Header />
+          <Hero />
+          <Skills />
+          <div className="flex-grow border-1 border-[#dcd8f3] dark:border-[#9e97c4]"></div>
+          <Profile />
+          <div className="flex-grow border-1 border-[#dcd8f3] dark:border-[#9e97c4]"></div>
+          <Projects />
+        </div>
+        <Footer />
+      </div>
     </>
   );
 }
 
 export default App;
+
+//data-theme="dark"
