@@ -7,16 +7,16 @@ function Profile() {
 
   return (
     <>
-      <div className="flex flex-col gap-y-10 text-lg">
-        <div className="text-5xl font-medium dark:text-[#aebccf]">
+      <div className="flex flex-col gap-y-10 sm:text-lg">
+        <div className="text-3xl sm:text-5xl font-medium dark:text-[#aebccf]">
           {profileData.title}
         </div>
-        <div className="flex gap-20">
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
           <div className="flex flex-col gap-y-4">
-            <span className="text-4xl text-[#4731d3] dark:text-[#9e97c4]">
+            <span className="text-2xl sm:text-4xl text-[#4731d3] dark:text-[#9e97c4]">
               {profileData.title}
             </span>
-            <div className="flex flex-col gap-y-2 w-105 dark:text-white">
+            <div className="flex flex-col gap-y-2 sm:1/2 xl:w-105 dark:text-white">
               {profileData.profile.map((item, index) => (
                 <div key={index} className="flex gap-16">
                   <span className="w-2/5 font-bold">{item.name}</span>
@@ -25,8 +25,8 @@ function Profile() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col text-lg text-[#777777] gap-y-1">
-            <span className="text-4xl text-[#4731d3] dark:text-[#9e97c4]">
+          <div className="flex flex-col text-[#777777] gap-y-1">
+            <span className="text-2xl sm:text-4xl text-[#4731d3] dark:text-[#9e97c4]">
               {profileData.subTitle}
             </span>
             {profileData.subText.map((text, index) => (

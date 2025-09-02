@@ -9,15 +9,15 @@ function Hero() {
 
   return (
     <>
-      <div className="flex my-14 text-lg font-medium">
-        <div className="flex flex-col w-1/2 gap-y-10">
-          <div className="flex items-center gap-3">
+      <div className="flex flex-col sm:flex-row sm:my-14 xl:text-lg sm:justify-between font-medium ">
+        <div className="flex flex-col w-1/1 sm:w-1/2 gap-y-10 order-2 sm:order-1 sm:mr-5">
+          <div className="flex items-center gap-3 invisible sm:visible">
             <div className="flex-grow border-t border-[#4731d3] dark:border-[#9e97c4]"></div>
             <span className="w-120 text-[#4731d3] dark:text-[#9e97c4]">
               {heroData.name}
             </span>
           </div>
-          <span className="text-7xl font-bold dark:text-[#aebccf]">
+          <span className="text-5xl sm:text-6xl xl:text-7xl  font-bold dark:text-[#aebccf]">
             {heroData.greeting}
           </span>
           <span className="text-[#777777] dark:text-white">
@@ -43,7 +43,7 @@ function Hero() {
             })}
           </div>
         </div>
-        <div className="w-1/2 flex justify-end items-center ">
+        <div className="w-1/1 sm:w-1/2 flex justify-end items-center order-1 sm:order-2">
           <img
             src={heroData.profileImage}
             className="rounded-2xl w-140 h-100 shadow-[9px_10px_31px_-4px_rgba(50,_50,_93,_0.25)]"

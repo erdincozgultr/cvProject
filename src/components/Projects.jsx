@@ -7,19 +7,19 @@ function Projects() {
 
   return (
     <>
-      <div className="flex flex-col gap-y-10">
-        <div className="text-5xl font-medium dark:text-[#aebccf]">
+      <div className="flex flex-col gap-y-10"><a id={projectsData.title}/>
+        <div className="text-3xl sm:text-5xl font-medium dark:text-[#aebccf]">
           {projectsData.title}
         </div>
-        <div className="flex gap-[100px]">
+        <div className="flex flex-col sm:flex-row gap-[100px]">
           {projectsData.projects.map((project, index) => (
-            <div key={index} className="flex flex-col gap-y-4 text-[#777777]">
-              <img src={project.img} />
-              <span className="text-4xl text-[#4731d3] hover:text-[#b31a53] dark:text-[#9e97c4] dark:hover:text-[#aebccf] cursor-pointer">
+            <div key={index} className="flex flex-col gap-y-4 text-[#777777] sm:w-1/4 xl:w-md">
+              <img src={project.img} className="w-md"/>
+              <span className="text-2xl sm:text-4xl text-[#4731d3] hover:text-[#b31a53] dark:text-[#9e97c4] dark:hover:text-[#aebccf] cursor-pointer">
                 {project.project}
               </span>
               <span className="dark:text-white">{project.text}</span>
-              <div className="flex gap-1">
+              <div className="flex sm:flex-wrap xl:flex-nowrap gap-1">
                 {project.tags.map((tag, index) => (
                   <button
                     key={index}

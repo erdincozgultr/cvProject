@@ -12,7 +12,7 @@ let userData = {
       intro:
         "Hi, I'm Almila. I'm full-stack developer. If you are looking for Developer who to craft solid and scalable fronted products with great user experiences. Let's shake hands with me.",
       profileImage:
-        "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+        "https://s3.eu-central-1.amazonaws.com/stajim/media/images/company-blog/256_20230130143000.png",
       socials: [
         {
           faIcon: false,
@@ -78,21 +78,21 @@ let userData = {
       title: "Projects",
       projects: [
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4252408/file/original-2639c4f09e52a8fe51c7bdb3d518fbaa.png",
           project: "Workintech",
           text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanila JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and theme possible.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "View Site"],
         },
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4252923/file/original-194378644f4378567e1e62720d41ac2f.png",
           project: "Random Jokes",
           text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanila JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and theme possible.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "View Site"],
         },
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4251124/file/original-47bf30824585263985db12638bffcd32.png",
           project: "Journey",
           text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanila JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and theme possible.",
           tags: ["react", "redux", "axios"],
@@ -119,7 +119,7 @@ let userData = {
       intro:
         "Merhaba, ben Almila. Full-stack geliştiriciyim. Harika kullanıcı deneyimleri sunan, sağlam ve ölçeklenebilir ön yüzlü ürünler geliştirecek bir geliştirici arıyorsanız, benimle el sıkışın.",
       profileImage:
-        "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+        "https://s3.eu-central-1.amazonaws.com/stajim/media/images/company-blog/256_20230130143000.png",
       socials: [
         {
           faIcon: false,
@@ -185,21 +185,21 @@ let userData = {
       title: "Projeler",
       projects: [
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4252408/file/original-2639c4f09e52a8fe51c7bdb3d518fbaa.png",
           project: "Workintech",
           text: "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisi. Vanila JS, SCSS ve Parcel Bundler ile oluşturulmuş olup bir NPM paketi olarak mevcuttur ve Git deposu, kod ve tema üzerinde her türlü özelleştirmeyi mümkün kılar.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "Siteyi görüntüle"],
         },
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4252923/file/original-194378644f4378567e1e62720d41ac2f.png",
           project: "Random Jokes",
           text: "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisi. Vanila JS, SCSS ve Parcel Bundler ile oluşturulmuş olup bir NPM paketi olarak mevcuttur ve Git deposu, kod ve tema üzerinde her türlü özelleştirmeyi mümkün kılar.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "Siteyi görüntüle"],
         },
         {
-          img: "https://community.softr.io/uploads/db9110/original/2X/7/74e6e7e382d0ff5d7773ca9a87e6f6f8817a68a6.jpeg",
+          img: "https://cdn.dribbble.com/userupload/4251124/file/original-47bf30824585263985db12638bffcd32.png",
           project: "Journey",
           text: "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisi. Vanila JS, SCSS ve Parcel Bundler ile oluşturulmuş olup bir NPM paketi olarak mevcuttur ve Git deposu, kod ve tema üzerinde her türlü özelleştirmeyi mümkün kılar.",
           tags: ["react", "redux", "axios"],

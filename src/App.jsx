@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <div data-theme={darkmode ? "dark" : ""} className="bg-white dark:bg-[#252128]">
-        <div className="w-4/6 mx-auto flex flex-col gap-y-8 pt-10 pb-[160px]">
+        <div className="w-4/5 sm:w-6/7 xl:w-4/6 mx-auto flex flex-col gap-y-8 pt-10 pb-[160px]">
           <Header />
           <Hero />
           <Skills />

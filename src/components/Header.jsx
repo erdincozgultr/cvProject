@@ -33,7 +33,9 @@ function Header() {
               }
             >
               {headerData.switch[1]}
-              <span className="text-[#4731d3] dark:text-[#9e97c4] hover:text-[#b31a53] dark:hover:text-[#aebccf] cursor-pointer">{headerData.switch[0]}</span>
+              <span className="text-[#4731d3] dark:text-[#9e97c4] hover:text-[#b31a53] dark:hover:text-[#aebccf] cursor-pointer">
+                {headerData.switch[0]}
+              </span>
             </span>
           ) : (
             <span
@@ -53,16 +55,15 @@ function Header() {
               <span className="text-2xl">A</span>
             </button>
           </div>
-          <div className="flex gap-x-16 text-[#777777]">
+          <div className="flex gap-x-16 text-[#777777] items-center">
             {headerData.buttons.map((button, index) => (
-              <button
-                key={index}
-                className="hover:text-[#141414] dark:hover:text-[#c3c2c3] cursor-pointer"
-              >
-                {button}
-              </button>
+              <a href={`#${button}`} key={index}>
+                <button className="hover:text-[#141414] dark:hover:text-[#c3c2c3] cursor-pointer">
+                  {button}
+                </button>
+              </a>
             ))}
-            <button className="cursor-pointer border border-solid px-8 py-4 rounded-md text-[#4731d3] dark:bg-white hover:bg-[#4731d3] hover:text-white dark:hover:bg-[#aebccf] dark:hover:text-[#383838]">
+            <button className="bg-white hover:bg-[#4731d3] dark:bg-[#383838] text-[#4731d3] hover:text-white dark:text-[#aebccf] dark:hover:bg-[#aebccf] dark:hover:text-[#383838] py-4 px-8 border rounded-md shadow cursor-pointer">
               {headerData.hireMe}
             </button>
           </div>
