@@ -1,2 +1,4 @@
+@layer theme;
 @import "tailwindcss";
+@import "../node_modules/tailwindcss/theme.css" layer(theme);
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
