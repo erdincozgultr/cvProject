@@ -1,4 +1,20 @@
-@layer theme;
 @import "tailwindcss";
-@import "../node_modules/tailwindcss/theme.css" layer(theme);
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --color-balticSea: #252128;
+  --color-blueBell: #9e97c4;
+  --color-linkWater: #dcd8f3;
+  --color-alabaster: #f9f9f9;
+  --color-codGray: #141414;
+  --color-casper: #aebccf;
+  --color-dandelion: #ffd55c;
+  --color-maroonFlush: #b31a53;
+  --color-purpleHearth: #4731d3;
+  --color-mountainMeadow: #1fb57d;
+  --color-easternBlue: #1f87bd;
+  --color-boulder: #777777;
+  --color-paleSlate: #c3c2c3;
+  --color-titanWhite: #eeebff;
+  --color-mineShaft: #383838;
+}
