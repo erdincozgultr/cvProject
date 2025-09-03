@@ -193,14 +193,14 @@ let userData = {
         },
         {
           img: "https://cdn.dribbble.com/userupload/4252923/file/original-194378644f4378567e1e62720d41ac2f.png",
-          project: "Random Jokes",
+          project: "Rastgele Şakalar",
           text: "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisi. Vanila JS, SCSS ve Parcel Bundler ile oluşturulmuş olup bir NPM paketi olarak mevcuttur ve Git deposu, kod ve tema üzerinde her türlü özelleştirmeyi mümkün kılar.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "Siteyi görüntüle"],
         },
         {
           img: "https://cdn.dribbble.com/userupload/4251124/file/original-47bf30824585263985db12638bffcd32.png",
-          project: "Journey",
+          project: "Yolculuk",
           text: "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisi. Vanila JS, SCSS ve Parcel Bundler ile oluşturulmuş olup bir NPM paketi olarak mevcuttur ve Git deposu, kod ve tema üzerinde her türlü özelleştirmeyi mümkün kılar.",
           tags: ["react", "redux", "axios"],
           folders: ["Github", "Siteyi görüntüle"],
